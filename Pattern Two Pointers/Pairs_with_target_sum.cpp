@@ -27,4 +27,6 @@ int main()
     cin >> targetSum;
     pair<int,int> result = findPairs(input , targetSum);
     cout <<"Fount at : " << result.first << " " << result.second << endl;
+    // 2 5 9 11
+    // 0 2
 }
