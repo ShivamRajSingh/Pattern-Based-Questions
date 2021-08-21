@@ -39,3 +39,6 @@ int main(){
     print(res);
     return 0;
 }
+// This problem follows the Binary Tree Level Order Traversal pattern. We can follow the same BFS approach. The only additional step we have to keep in mind is to alternate the level order traversal,
+//  which means that for every other level,
+//  we will traverse similar to Reverse Level Order Traversal.
