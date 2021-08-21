@@ -1,6 +1,6 @@
 #include "codeblock.h"
 
-vector<vector<int>> levelOrder (TreeNode *root){
+vector<vector<int>> zigzag (TreeNode *root){
     vector<vector<int>> res;
     bool leftToRight = true;
     
@@ -35,7 +35,7 @@ vector<vector<int>> levelOrder (TreeNode *root){
 
 int main(){
     TreeNode *root = getSampleTree();
-    vector<vector<int>> res = levelOrder (root);
+    vector<vector<int>> res = zigzag (root);
     print(res);
     return 0;
 }
