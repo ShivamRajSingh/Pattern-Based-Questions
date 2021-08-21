@@ -20,7 +20,7 @@ int main(){
     cout << hasPath(root, sum)? "True": "False";
 
     return 0;
-// }
+}
 // To recursively traverse a binary tree in a DFS fashion, we can start from the root and at every step, make two recursive calls one for the left and one for the right child.
 
 // Here are the steps for our Binary Tree Path Sum problem:
