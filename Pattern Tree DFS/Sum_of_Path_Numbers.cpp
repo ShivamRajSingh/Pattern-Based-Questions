@@ -10,8 +10,7 @@ int helper (TreeNode *root , int sum){
         return sum;
     }
 
-    return helper(root->left ,sum)
-        + helper(root->right,sum);
+    return helper(root->left ,sum) + helper(root->right,sum);
 
 }
 
